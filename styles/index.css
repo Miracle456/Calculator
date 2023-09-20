@@ -1,0 +1,51 @@
+/* here you can write css */
+
+.box{
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: grey;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    font-size: 25px;
+    padding: 5px;;
+}
+.btn-box{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    font-size: 40px;
+    padding: 10px 30px;
+    margin: 20px;
+ 
+}
+
+#show{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+body{
+    background: url(https://img.freepik.com/free-vector/seamless-pattern-with-school-office-stationery_107791-9568.jpg?size=626&ext=jpg&ga=GA1.2.656240173.1694566733&semt=ais);
+    background-size: cover;
+}
+h1{
+    justify-content: center;
+    color: rgb(187, 139, 95);
+    font-size: 70px;
+
+}
